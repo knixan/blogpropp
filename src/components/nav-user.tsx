@@ -45,7 +45,7 @@ export default function NavUser({
 
       <li>
         <Button asChild variant="outline">
-          <Link href="sign-up">Register</Link>
+          <Link href="/sign-up">Register</Link>
         </Button>
       </li>
     </>

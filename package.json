@@ -6,7 +6,11 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "migrate": "prisma migrate dev",
+    "seed": "ts-node --transpile-only prisma/seed.ts",
+    "setup": "npm run prisma:generate && npm run migrate && npm run seed"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",

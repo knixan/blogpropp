@@ -1,11 +1,10 @@
-"use";
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <div className="relative h-screen flex items-center justify-center">
       <Image
-        src="/Images/hero.jpg"
+        src="/images/hero.jpg"
         alt="bakgrundsbild"
         fill
         className="absolute z-0 object-cover"
@@ -15,11 +14,11 @@ export default function Hero() {
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center px-4">
         <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl">
           <span className="text-[#f95738]">Welcome to</span>{" "}
-          <span className="text-[#f4d35e]">BlogPropP</span>
+          <span className="text-[#f4d35e]">BlogPropp</span>
         </h1>
-        <p className="mb-6 text-lg font-semibold text-[#ebebd3] font-normal lg:text-xl sm:px-16 xl:px-48">
+        <p className="mb-6 text-lg font-semibold text-[#ebebd3] lg:text-xl sm:px-16 xl:px-48">
           This is a simple example of a blog application in Next.js using
-          Tailwind CSS, Shadcn, postgresSQL, Prisma and Bether Auth.
+          Tailwind CSS, PostgreSQL, Prisma and Better Auth.
         </p>
       </div>
     </div>
