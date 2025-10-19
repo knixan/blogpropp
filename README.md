@@ -3,13 +3,7 @@
 ![Projektmockup](public/images/mockup-blogpropp.jpg)
 
 Detta är ett **bloggprojekt** byggt med **Next.js (App Router)**, **Prisma ORM**, **PostgreSQL** och **Better Auth**.  
-Projektet skapades under en lektion på **Lexicon** tillsammans med vår lärare **Sebastian**, där vi gick igenom:
 
-- Prisma & PostgreSQL
-- Hur autentisering fungerar med Better Auth
-- API-rutter i Next.js
-
-Efter lektionerna har projektet stylats med **Tailwind CSS** för en modern och responsiv design.
 
 ---
 
