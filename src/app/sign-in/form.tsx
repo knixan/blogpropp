@@ -26,7 +26,7 @@ import { useForm } from "react-hook-form";
 import z from "zod";
 
 const FormSchema = z.object({
-  email: z.email().max(250),
+  email: z.string().email().max(250),
   password: z.string().min(6).max(128),
 });
 

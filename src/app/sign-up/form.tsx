@@ -28,7 +28,7 @@ import z from "zod";
 const FormSchema = z
   .object({
     name: z.string().min(2).max(100),
-    email: z.email().max(250),
+    email: z.string().email().max(250),
     password: z.string().min(6).max(128),
     confirmPassword: z.string(),
   })
